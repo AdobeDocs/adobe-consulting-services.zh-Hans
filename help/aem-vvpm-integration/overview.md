@@ -2,7 +2,7 @@
 title: Veeva Vault集成概述
 description: Veeva Vault集成概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
+source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -33,8 +33,7 @@ ht-degree: 0%
 此集成旨在支持两个主要用例：
 
 1. 内容审批 — 当在AEM中创建了新内容或编辑了现有内容时，必须批准该内容可在VVPM中使用，以支持生命科学的医疗、法律和法规(MLR)审批流程。
-
-2. 内容管理 — 通过在PromoMats中为源自AEM的文档建立数字策略（如电子邮件、演示文稿、网站）与其在AEM中创建的元素（如徽标、照片、图形）之间的关系，提供资产利用情况的可见性。
+1. 内容管理 — 通过在PromoMats中为源自AEM的文档建立数字策略（如电子邮件、演示文稿、网站）与其在AEM中创建的元素（如徽标、照片、图形）之间的关系，提供资产利用情况的可见性。
 
 其优势包括：
 
@@ -67,7 +66,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >此集成当前将AEM视为内容同步的真实来源。
->
 
 ## 获取集成
 
