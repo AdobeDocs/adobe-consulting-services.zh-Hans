@@ -2,7 +2,7 @@
 title: Veeva Vault集成概述
 description: Veeva Vault集成概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 4d27e7ecca662b2082a18621becb0b8ec7735824
+source-git-commit: 005c738818ab622a342ddc3a94e94638e344d058
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -101,3 +101,4 @@ ht-degree: 0%
 ### 请求Veeva保险库促销支持
 
 有时，遇到的问题与Veeva保险库PromoMats实例的运行有关。 如果是这种情况，可能会指导您的Veeva Vault PromoMats管理员创建支持工单，其中 [Veeva支持](http://support.veeva.com/). 通过导航到，可查看Veeva实例的状态 [Veeva Trust](http://trust.veeva.com/).
+
