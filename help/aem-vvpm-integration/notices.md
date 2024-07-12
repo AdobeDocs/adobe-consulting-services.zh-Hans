@@ -36,11 +36,11 @@ ht-degree: 1%
 * 不支持将VVPM可视注释从VVPM同步到AEM。
 * 该集成不会将内容从VVPM导入AEM。
 * 不支持元数据验证。
-* 根据Veeva许可证，文档数量有限。 请参阅 [许可证限制](#veeva-license-limitations).
-* 根据Veeva许可证，API调用的数量有限。 有关详细信息，请参阅 [API限制](https://developer.veevavault.com/docs/#what-are-rate-limits). 请参阅 [许可证限制](#veeva-license-limitations).
+* 根据Veeva许可证，文档数量有限。 请参阅[许可证限制](#veeva-license-limitations)。
+* 根据Veeva许可证，API调用的数量有限。 有关详细信息，请参阅[API限制](https://developer.veevavault.com/docs/#what-are-rate-limits)。 请参阅[许可证限制](#veeva-license-limitations)。
 
 ## Veeva许可证限制
 
 您可以通过导航到VVPM常规设置来监视实例限制。
 
-![Veeva Limits](assets/veeva-limits.png)
+![Veeva限制](assets/veeva-limits.png)

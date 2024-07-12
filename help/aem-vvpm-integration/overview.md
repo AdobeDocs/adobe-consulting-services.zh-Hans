@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->此功能并非作为产品的一部分现成可用。 实施需要Adobe咨询维护合同。 请联系您的Adobe代表以了解更多信息。
+>此功能并非作为产品的一部分现成可用。 实施需要Adobe Consulting维护合同。 请联系您的Adobe代表以了解更多信息。
 >
 
 ## 原理和功能
@@ -45,10 +45,10 @@ ht-degree: 0%
 
 该集成有什么作用？
 
-* 支持将AEM站点页面、资产、内容片段和体验片段发送到VPM。 AEM页面、内容片段和体验片段可以作为屏幕快照PDF或图像发送。 AEM Assets二进制文件按原样发送。
+* 支持将AEM站点页面、Assets、内容片段和体验片段发送到VPM。 AEM页面、内容片段和体验片段可以作为屏幕快照PDF或图像发送。 AEM Assets二进制文件按原样发送。
 * 支持手动和自动同步可从AEM配置到VVPM的选定元数据元素。
 * 支持手动和自动同步从VVPM配置到AEM的选定元数据元素。
-* 支持VVPM中AEM Site Pages、Assets、内容片段和体验片段之间的关系，以自动化内容关系。
+* 支持VVPM中AEM Site Pages、Assets、内容片段和体验片段之间的关系以自动实现内容关系。
 * 支持为多种设备类型生成节目。
 
 >[!NOTE]
@@ -77,9 +77,9 @@ ht-degree: 0%
 
 流程图详细信息（映射到上述步骤）：
 
-* **步骤1**  — 假定您已拥有Veeva Vault PromoMats和Adobe Experience Manager的许可证，或正在获取该许可证。
-* **步骤2**  — 需要与Adobe咨询签署一份新的销售订单(SO)，其中列出了维护协议，以便利用集成。
-* **步骤3**  — 安装、激活和配置集成包。
+* **步骤1** — 假定您已拥有或正在获取Veeva保险库促销活动和Adobe Experience Manager的许可证。
+* **第2步** — 需要与Adobe Consulting签署概述维护协议的新销售订单(SO)，才能利用集成。
+* **步骤3** — 安装、激活和配置集成包。
 
 ## 支持
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 ### 请求集成或Adobe Experience Manager支持
 
-支持工单可由Adobe客户关怀团队记录。 您的Adobe Experience Cloud管理员需要登录到 [Adobe Admin Console](https://adminconsole.adobe.com/)，单击支持选项卡，然后创建案例。 对于集成期间出现的任何问题，请确保包括以下信息：
+支持工单可由Adobe客户关怀团队记录。 您的Adobe Experience Cloud管理员需要登录到[Adobe Admin Console](https://adminconsole.adobe.com/)，单击“支持”选项卡，然后创建案例。 对于集成期间出现的任何问题，请确保包括以下信息：
 
 * **进程标题**： `AEM - Veeva Vault Integration`
 * **进程所有者**： `Data Engineering`
@@ -98,5 +98,5 @@ ht-degree: 0%
 
 ### 请求Veeva保险库促销支持
 
-有时，遇到的问题与Veeva保险库PromoMats实例的运行有关。 如果是这种情况，可能会指导您的Veeva Vault PromoMats管理员创建支持工单，其中 [Veeva支持](http://support.veeva.com/). 通过导航到，可查看Veeva实例的状态 [Veeva Trust](http://trust.veeva.com/).
+有时，遇到的问题与Veeva保险库PromoMats实例的运行有关。 如果是这种情况，可能会指导您的Veeva保险库促销管理员创建具有[Veeva支持](http://support.veeva.com/)的支持票证。 通过导航到[Veeva Trust](http://trust.veeva.com/)，可以查看Veeva实例的状态。
 
