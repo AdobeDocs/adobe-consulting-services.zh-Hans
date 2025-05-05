@@ -37,7 +37,7 @@ ht-degree: 0%
 
 #### 包安装
 
-要安装包，请通过载入电子邮件中提供的链接下载包。 [单击此处可找到有关安装AEM包的详细说明。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?#installing-packages)
+要安装包，请通过载入电子邮件中提供的链接下载包。 [单击此处可找到有关安装AEM包的详细说明。](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/package-manager.html?lang=zh-Hans&#installing-packages)
 
 #### POM安装
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
    >[!IMPORTANT]
    >
-   >如果使用Cloud Manager，则安全方法是按照此处为[受密码保护的Maven存储库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=en#password-protected-maven-repositories)找到的步骤进行操作。
+   >如果使用Cloud Manager，则安全方法是按照此处为[受密码保护的Maven存储库](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/onboarding/getting-access/create-application-project/setting-up-project.html?lang=zh-Hans#password-protected-maven-repositories)找到的步骤进行操作。
    >
 
    ```
@@ -257,12 +257,12 @@ c.属性类型。 `Text`或`Multiline Text`。
 
 如果使用AEM 6.5.5+：
 
-* [在AEM中创建用户](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?#create-a-user)
-* [在AEM中为用户添加权限](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?#permissions-in-aem)
+* [在AEM中创建用户](https://experienceleague.adobe.com/docs/experience-manager-65/forms/administrator-help/setup-organize-users/adding-configuring-users.html?lang=zh-Hans&#create-a-user)
+* [在AEM中为用户添加权限](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html?lang=zh-Hans&#permissions-in-aem)
 
 如果使用AEMCloud Service：
 
-* [使用AEMCloud Service管理用户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?#accessing)
+* [使用AEMCloud Service管理用户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans&#accessing)
 
 AEM服务用户需要对将转换为PDF/图像并推送到Veeva的内容拥有以下权限：
 
