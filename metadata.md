@@ -3,9 +3,10 @@ product: adobe experience manager
 solution: Experience Manager
 description: 咨询Experience Manager文档
 type: Documentation
-git-repo: https://github.com/AdobeDocs/adobe-consulting-services.zh-Hans
+git-repo: https://github.com/Adobe-Enterprise-Docs/adobe-consulting-services.zh-Hans
 index: y
-source-git-commit: e2dac4b36fb94d72b72ef6f73a77e3f566539444
+hide: n
+source-git-commit: d36298f9c8abf2859e2a8fc9be92d2fcae8d60cf
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 54%
@@ -39,4 +40,4 @@ ToC
 * `title`
 * `description`
 
-有关元数据的其他信息，请参见 [内部创作指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html).
+有关元数据的其他信息可在[内部创作指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/authoring/metadata.html)中找到。
