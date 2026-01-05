@@ -2,7 +2,7 @@
 title: Veeva Vault集成概述
 description: Veeva Vault集成概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: 2e47baa4a255c34b3ca0b8631650dd5d8960fea8
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 此集成旨在支持两个主要用例：
 
 1. 内容审批 — 当在AEM中创建了新内容或编辑了现有内容时，必须批准该内容可在VVPM中使用，以支持生命科学的医疗、法律和法规(MLR)审批流程。
-1. 内容管理 — 通过在PromoMats中为源自AEM的文档建立数字策略（如电子邮件、演示文稿、网站）与其在AEM中创建的元素（如徽标、照片、图形）之间的关系，提供资产利用情况的可见性。
+1. 内容管理 — 通过在PromoMats中针对源自AEM的文档建立数字策略（如电子邮件、演示文稿、网站）与其在AEM中创建的元素（如徽标、照片、图形）之间的关系，提供资产利用情况的可见性。
 
 其优势包括：
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 该集成有什么作用？
 
 * 支持将AEM站点页面、Assets、内容片段和体验片段发送到VPM。 AEM页面、内容片段和体验片段可以作为屏幕快照PDF或图像发送。 AEM Assets二进制文件按原样发送。
-* 支持手动和自动同步可从AEM配置到VVPM的选定元数据元素。
-* 支持手动和自动同步从VVPM配置到AEM的选定元数据元素。
-* 支持VVPM中AEM Site Pages、Assets、内容片段和体验片段之间的关系以自动实现内容关系。
+* 支持手动和自动同步从AEM可配置到VVPM的选定元数据元素。
+* 支持将可从VVPM配置到AEM的选定元数据元素手动和自动同步。
+* 支持VVPM中的AEM Site Pages、Assets、内容片段和体验片段之间的关系以自动实现内容关系。
 * 支持为多种设备类型生成节目。
 
 >[!NOTE]
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 连接器不执行什么操作？
 
-* 不会在Veeva中复制AEM流程和功能，反之亦然。
+* 不在Veeva中复制AEM流程和功能，反之亦然。
 * MLR本身并不存在。 它有助于自动将内容发送到Veeva并发送到MLR发生的地方。
 * 不用于在AEM和Veeva之间创建相同的设置。 并非所有内容都需要在两个平台之间移动。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 请按照下面的流程图和流程图详细信息请求和配置集成。
 
-![请求访问](assets/integration-request.png)
+![申请访问权限](assets/integration-request.png)
 
 流程图详细信息（映射到上述步骤）：
 
@@ -99,4 +99,3 @@ ht-degree: 0%
 ### 请求Veeva保险库促销支持
 
 有时，遇到的问题与Veeva保险库PromoMats实例的运行有关。 如果是这种情况，可能会指导您的Veeva保险库促销管理员创建具有[Veeva支持](http://support.veeva.com/)的支持票证。 通过导航到[Veeva Trust](http://trust.veeva.com/)，可以查看Veeva实例的状态。
-

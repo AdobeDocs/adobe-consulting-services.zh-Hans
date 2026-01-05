@@ -2,10 +2,10 @@
 title: Veeva保险库集成常见问题解答
 description: Veeva保险库集成常见问题解答
 exl-id: c308ebb3-7881-4094-9f35-c67a96fb5ab1
-source-git-commit: e4a5e55ac9b79a8de7dfa8ddd3d0ad99560917b8
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 **集成是否支持Veeva链接文档？ 如果不支持，则支持哪些关系类型？**
 
-不适用。 查看[Veeva文档](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)。 链接的文档（引用关系类型）是标准关系类型之一，无法通过API创建或删除，因为它们具有特殊的Vault行为。 组件、支持文档以及任何未在此列表中的其他组件应能够通过AEM Veeva云配置进行配置。
+不行。查看[Veeva文档](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)。 链接的文档（引用关系类型）是标准关系类型之一，无法通过API创建或删除，因为它们具有特殊的Vault行为。 组件、支持文档以及任何未在此列表中的其他文档应能够通过AEM Veeva云配置进行配置。
 
 **集成是否支持AEM模块化内容？**
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 **集成是否将Veeva可视注释同步到AEM？**
 
-不，现在不行。 可视批注只能通过API作为PDF访问。
+不，现在不行。 可视化批注只能通过API as a PDF访问。
 
 **我们如何对集成同步的VVPM文档设置权限？**
 

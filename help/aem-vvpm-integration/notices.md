@@ -2,7 +2,7 @@
 title: Veeva Vault集成注意事项
 description: Veeva Vault集成注意事项
 exl-id: 1a188671-d123-4475-a607-65743ba0dadd
-source-git-commit: 07eab1e439626bd3bb3416c9e7d0c1666927a7aa
+source-git-commit: b024e4295b5b37030c1524342832400c279c650a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 使用此集成时，请考虑以下限制：
 
 * 同步元数据时仅支持以下数据类型：“文本”和“多行文本”。
-* 虽然集成支持AEM模块化内容（内容片段和体验片段），但它不支持VVPM模块化内容。
+* 虽然此集成支持AEM模块化内容（内容片段和体验片段），但它不支持VVPM模块化内容。
 * 不支持VVPM链接文档。
 * 不支持将VVPM可视注释从VVPM同步到AEM。
 * 该集成不会将内容从VVPM导入AEM。
@@ -44,3 +44,4 @@ ht-degree: 1%
 您可以通过导航到VVPM常规设置来监视实例限制。
 
 ![Veeva限制](assets/veeva-limits.png)
+
