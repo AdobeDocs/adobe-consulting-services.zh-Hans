@@ -4,7 +4,7 @@ user-guide-title: Adobe Consulting Services
 breadcrumb-title: ACS指南
 user-guide-description: ACS为与AEM一起使用而创建的解决方案的文档。
 hide: true
-source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
+source-git-commit: 668c7a2ec2ea359eb58bf0f57e11bdb63c7f458e
 workflow-type: tm+mt
 source-wordcount: '22'
 ht-degree: 31%
