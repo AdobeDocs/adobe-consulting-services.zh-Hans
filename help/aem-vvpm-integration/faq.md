@@ -2,13 +2,14 @@
 title: Veeva保险库集成常见问题解答
 description: Veeva保险库集成常见问题解答
 exl-id: c308ebb3-7881-4094-9f35-c67a96fb5ab1
-source-git-commit: b024e4295b5b37030c1524342832400c279c650a
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '354'
 ht-degree: 1%
-
 ---
-
 # 常见问题解答
 
 **哪些元数据应同步到Veeva？**
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 **集成是否支持Veeva链接文档？ 如果不支持，则支持哪些关系类型？**
 
-不行。查看[Veeva文档](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)。 链接的文档（引用关系类型）是标准关系类型之一，无法通过API创建或删除，因为它们具有特殊的Vault行为。 组件、支持文档以及任何未在此列表中的其他文档应能够通过AEM Veeva云配置进行配置。
+不行。 查看[Veeva文档](https://vaulthelp2.vod309.com/wordpress/admin-user-help/documents-admin-user-help/about-document-relationships/)。 链接的文档（引用关系类型）是标准关系类型之一，无法通过API创建或删除，因为它们具有特殊的Vault行为。 组件、支持文档以及任何未在此列表中的其他文档应能够通过AEM Veeva云配置进行配置。
 
 **集成是否支持AEM模块化内容？**
 

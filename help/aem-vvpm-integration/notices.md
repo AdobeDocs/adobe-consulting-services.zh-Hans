@@ -2,13 +2,14 @@
 title: Veeva Vault集成注意事项
 description: Veeva Vault集成注意事项
 exl-id: 1a188671-d123-4475-a607-65743ba0dadd
-source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
-
 ---
-
 # 最佳实践、护栏和声明
 
 ## 版本

@@ -2,13 +2,14 @@
 title: Veeva Vault集成概述
 description: Veeva Vault集成概述
 exl-id: 52cc7290-b7e1-4476-877f-48934e6daf68
-source-git-commit: e192249d7c6485000cadb5389f555c9e98d8a83e
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '695'
 ht-degree: 0%
-
 ---
-
 # Veeva Vault促销活动与Adobe Experience Manager集成快速入门
 
 此集成将管理您的内容，强制执行权限和合规性，同时利用同类领先的体验交付。
