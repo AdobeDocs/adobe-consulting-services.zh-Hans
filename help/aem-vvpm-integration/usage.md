@@ -2,13 +2,14 @@
 title: Veeva Vault集成使用
 description: Veeva Vault集成使用
 exl-id: efff7af1-eb25-4a1d-b7ef-52e3336970ff
-source-git-commit: b4261448e34cdcee9c28410a9d3cd8dbcc9212fa
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+source-git-commit: 02aa1622ee171cd56ec9cdeb6bdef04b5d5464b5
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 3%
-
+source-wordcount: '1364'
+ht-degree: 7%
 ---
-
 # 集成使用
 
 ## 演练
@@ -167,11 +168,11 @@ ht-degree: 3%
 
 ![配置选项卡](assets/configuration-tab.png)
 
-1. 必需。Veeva保险库连接器配置的标题。 此值可以是任意值。 （例如`Veeva Vault Configuration`）
-2. 必需。Veeva实例的域URL（例如`https://my-instance.veevavault.com/`）
-3. 必需。调用Veeva Vault API所需的ClientID。 该值可以是任意值，主要用于调试。 （例如`adobe-aem-vvtechpartner`）
-4. 必需。Veeva保险库用户名。 请参阅[Veeva用户创建](#veeva-user-creation)。
-5. 必需。Veeva保险库密码。 请参阅[Veeva用户创建](#veeva-user-creation)。
+1. 必需。 Veeva保险库连接器配置的标题。 此值可以是任意值。 (e.g. `Veeva Vault Configuration`)
+2. 必需。 Veeva实例的域URL（例如`https://my-instance.veevavault.com/`）
+3. 必需。 调用Veeva Vault API所需的ClientID。 该值可以是任意值，主要用于调试。 (e.g. `adobe-aem-vvtechpartner`)
+4. 必需。 Veeva保险库用户名。 请参阅[Veeva用户创建](#veeva-user-creation)。
+5. 必需。 Veeva保险库密码。 请参阅[Veeva用户创建](#veeva-user-creation)。
 
 #### Adobe IO选项卡
 
@@ -179,17 +180,17 @@ ht-degree: 3%
 
 ![Adobe IO选项卡](assets/adobe-io-tab.png)
 
-1. 必需。用于创建在载入电子邮件中提供的PDF图像的Adobe IO端点。 （例如`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`）
-2. 必需。用于生成页面图像的操作名称。 此值必须为`aem-veeva-integration/get-image-async`。
-3. 必需。用于生成html图像的操作名称。 此值必须为`aem-veeva-integration/get-pdf-async-new`。
-4. 必需。Adobe IO端点，用于获取入门培训电子邮件中提供的层代的状态。（例如`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`）
-5. 必需。Adobe IO使用的AEM用户名。 请参阅[AEM用户创建](#aem-user-creation)。
-6. 必需。Adobe IO使用的AEM密码。 请参阅[AEM用户创建](#aem-user-creation)。
-7. 可选。默认超时是允许页面在指定的时间之前响应，在此时间之后，AIO服务将停止尝试获取响应。 默认值为`30000`。
-8. 可选。延迟是指页面以200响应延迟，以便所有图像在拍摄屏幕快照之前呈现。 默认值为`2000`。
-9. 可选。屏幕快照/PDF生成的URL将在配置值（以秒为单位）后过期。
-10. 可选。Adobe IO屏幕快照/PDF生成服务是异步的。 AEM服务调用AIO状态端点以获取屏幕快照/PDF。 此属性将决定每个状态调用之间的暂停时间（以毫秒为单位）。 默认值为`10000`。
-11. 可选。获取屏幕快照/PDF的状态调用Adobe IO的最大重试计数。 默认值为`10`。
+1. 必需。 用于创建在载入电子邮件中提供的PDF图像的Adobe IO端点。 (e.g. `https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/trigger-action.json`)
+2. 必需。 用于生成页面图像的操作名称。 此值必须为`aem-veeva-integration/get-image-async`。
+3. 必需。 用于生成html图像的操作名称。 此值必须为`aem-veeva-integration/get-pdf-async-new`。
+4. 必需。 Adobe IO终结点，用于获取载入电子邮件中提供的生成状态。（例如`https://my-namespace.adobeioruntime.net/api/v1/web/aem-veeva-serverless-0.0.2/get-state-value`）
+5. 必需。 Adobe IO使用的AEM用户名。 请参阅[AEM用户创建](#aem-user-creation)。
+6. 必需。 Adobe IO使用的AEM密码。 请参阅[AEM用户创建](#aem-user-creation)。
+7. 可选。 默认超时是允许页面在指定的时间之前响应，在此时间之后，AIO服务将停止尝试获取响应。 默认值为`30000`。
+8. 可选。 延迟是指页面以200响应延迟，以便所有图像在拍摄屏幕快照之前呈现。 默认值为`2000`。
+9. 可选。 屏幕快照/PDF生成的URL将在配置值（以秒为单位）后过期。
+10. 可选。 Adobe IO屏幕快照/PDF生成服务是异步的。 AEM服务调用AIO状态端点以获取屏幕快照/PDF。 此属性将决定每个状态调用之间的暂停时间（以毫秒为单位）。 默认值为`10000`。
+11. 可选。 获取屏幕快照/PDF的状态调用Adobe IO的最大重试计数。 默认值为`10`。
 
 #### “高级”选项卡
 
@@ -197,23 +198,23 @@ ht-degree: 3%
 
 ![高级选项卡](assets/advanced-tab.png)
 
-1. 在PDF/图像生成时需要使用。 创建PDF/图像时使用的文件名模式。 可以对`{name}`进行模板。 （例如`{name}-screenshot`）
-2. 可选。除桌面设备外，需要页面屏幕截图的设备类型。 有效类型包括`Tab (iPad)`和`Mobile (iPhone X)`。
-3. 可选。Veeva中表示上述演绎版的演绎版类型值。 （例如`web_ready__c`）
+1. 在PDF/图像生成时需要使用。 创建PDF/图像时使用的文件名模式。 可以对`{name}`进行模板。 (e.g. `{name}-screenshot`)
+2. 可选。 除桌面设备外，需要页面屏幕截图的设备类型。 有效类型包括`Tab (iPad)`和`Mobile (iPhone X)`。
+3. 可选。 Veeva中表示上述演绎版的演绎版类型值。 (e.g. `web_ready__c`)
 4. 在PDF/图像生成时需要使用。 要创建的屏幕快照类型。 `PDF`或`Image`。
 5. 在PDF/图像生成时需要使用。 要生成的PDF类型。 `Print CSS Based PDF`或`Pixel Perfect Screenshot PDF`。
 6. 在PDF/图像生成时需要使用。 要生成的图像类型。 `PNG`或`JPEG`。
-7. 必需。一旦Veeva Vault批准触发器触发运行，即会运行工作流。
-8. 必需。表示“已批准”的状态属性值。 （例如`Approved for Distribution`）
-9. 必需。Veeva保险库拒绝触发器触发后要运行的工作流。
-10. 必需。表示已拒绝/未批准的状态属性值。 （例如`Rejected`）
-11. 可选。Veeva Vault中文档ID的属性名称。 默认值为`id`。
-12. 可选。Veeva Vault中Status的属性名称。 默认值为`status__v`。
-13. 可选。文档修改日期的属性名称。 默认值为`version_modified_date__v`。
-14. 可选。文档资源URL的属性名称。 默认值为`external_id__v`。 如果此字段已被使用，请在Veeva中创建其他字段并在此处填充该字段名称。 此字段将在Veeva中用于包含AEM资源路径。 自动化元数据同步需要此项。
-15. 可选。Veeva Vault中主版本号的属性名称。 默认值为`major_version_number__v`。
-16. 可选。Veeva Vault中次版本号的属性名称。 默认值为`minor_version_number__v`。
-17. 可选。Veeva保险库关系类型值。 添加到页面的所有资产都将根据该值表示为相关。 默认值为`supporting_document__c`。
+7. 必需。 一旦Veeva Vault批准触发器触发运行，即会运行工作流。
+8. 必需。 表示“已批准”的状态属性值。 (e.g. `Approved for Distribution`)
+9. 必需。 Veeva保险库拒绝触发器触发后要运行的工作流。
+10. 必需。 表示已拒绝/未批准的状态属性值。 (e.g. `Rejected`)
+11. 可选。 Veeva Vault中文档ID的属性名称。 默认值为`id`。
+12. 可选。 Veeva Vault中Status的属性名称。 默认值为`status__v`。
+13. 可选。 文档修改日期的属性名称。 默认值为`version_modified_date__v`。
+14. 可选。 文档资源URL的属性名称。 默认值为`external_id__v`。 如果此字段已被使用，请在Veeva中创建其他字段并在此处填充该字段名称。 此字段将在Veeva中用于包含AEM资源路径。 自动化元数据同步需要此项。
+15. 可选。 Veeva Vault中主版本号的属性名称。 默认值为`major_version_number__v`。
+16. 可选。 Veeva Vault中次版本号的属性名称。 默认值为`minor_version_number__v`。
+17. 可选。 Veeva保险库关系类型值。 添加到页面的所有资产都将根据该值表示为相关。 默认值为`supporting_document__c`。
 
 #### “页面”选项卡
 
@@ -221,15 +222,15 @@ ht-degree: 3%
 
 ![页选项卡](assets/page-tab.png)
 
-1. 必需。将资产从AEM映射到Veeva。
-a. AEM资产名称。 可以从AEM资产中进行选择。 （例如`jcr:title`） `{name}`可以模板。
-b.完全在输入的Veeva属性名称在Veeva中存在。 （例如`name__v`）\
-   c.属性类型。 `Text`或`Multiline Text`。
+1. 必需。 将资产从AEM映射到Veeva。
+答： AEM资产名称。 可以从AEM资产中进行选择。 （例如`jcr:title`） `{name}`可以模板。
+b. 完全在输入的Veeva属性名称在Veeva中存在。 (e.g. `name__v`)\
+   c. 属性类型。 `Text`或`Multiline Text`。
 
-2. 必需。将资产从Veeva映射到AEM。
-a.完全在输入的Veeva属性名称在Veeva中存在。 （例如`name__v`）
-b. AEM资产名称。 可以从AEM资产中进行选择。 （例如`jcr:title`）
-c.属性类型。 `Text`或`Multiline Text`。
+2. 必需。 将资产从Veeva映射到AEM。
+答： 完全在输入的Veeva属性名称在Veeva中存在。 (e.g. `name__v`)
+b. AEM资产名称。 可以从AEM资产中进行选择。 (e.g. `jcr:title`)
+c. 属性类型。 `Text`或`Multiline Text`。
 
 
 #### “资源”选项卡
@@ -238,15 +239,15 @@ c.属性类型。 `Text`或`Multiline Text`。
 
 ![资产选项卡](assets/asset-tab.png)
 
-1. 必需。将资产从AEM映射到Veeva。
-a. AEM资产名称。 可以从AEM资产中进行选择。 （例如`/jcr:content/metadata/jcr:title`） `{name}`可以模板。
-b.完全在输入的Veeva属性名称在Veeva中存在。 （例如`name__v`）
-c.属性类型。 `Text`或`Multiline Text`。
+1. 必需。 将资产从AEM映射到Veeva。
+答： AEM资产名称。 可以从AEM资产中进行选择。 （例如`/jcr:content/metadata/jcr:title`） `{name}`可以模板。
+b. 完全在输入的Veeva属性名称在Veeva中存在。 (e.g. `name__v`)
+c. 属性类型。 `Text`或`Multiline Text`。
 
-2. 必需。将资产从Veeva映射到AEM。
-a.完全在输入的Veeva属性名称在Veeva中存在。 （例如`name__v`）
-b. AEM资产名称。 可以从AEM资产中进行选择。 （例如`/jcr:content/metadata/jcr:title`）
-c.属性类型。 `Text`或`Multiline Text`。
+2. 必需。 将资产从Veeva映射到AEM。
+答： 完全在输入的Veeva属性名称在Veeva中存在。 (e.g. `name__v`)
+b. AEM资产名称。 可以从AEM资产中进行选择。 (e.g. `/jcr:content/metadata/jcr:title`)
+c. 属性类型。 `Text`或`Multiline Text`。
 
 ### 其他设置
 
@@ -261,7 +262,7 @@ c.属性类型。 `Text`或`Multiline Text`。
 
 如果使用AEM云服务：
 
-* [使用AEM Cloud Services管理用户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans&#accessing)
+* [使用AEM云服务管理用户](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/accessing/aem-users-groups-and-permissions.html?lang=zh-Hans&#accessing)
 
 AEM服务用户对将转换为PDF/图像并推送到Veeva的内容需要以下权限：
 
